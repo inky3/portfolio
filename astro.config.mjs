@@ -1,6 +1,7 @@
 export default {
-  site: 'https://inly3.github.io', // Replace 'name' with your GitHub username
+  site: 'https://inky3.github.io', // Replace 'name' with your GitHub username
   build: {
-    base: '/me/', // Replace 'repo-name' with your repository name
+    // This is the important part
+    base: '/me/', // Replace 'repo-name' with your GitHub repository name
   },
 };
