@@ -1,6 +1,6 @@
-export default {
-  site: 'https://inky3.github.io', // Your GitHub username
-  build: {
-    // Remove the base path for now
-  },
-};
+import { defineConfig } from 'astro/config';
+
+export default defineConfig({
+  output: 'static',
+  base: '/portfolio/',
+});
